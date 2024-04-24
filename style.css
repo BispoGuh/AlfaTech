@@ -1,0 +1,687 @@
+/* ESTILO GERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header .center {
+    padding: 20px 10%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logotipo {
+    display: inline-block;
+}
+
+.logotipo img {
+    height: 75px;
+    width: 75px;
+}
+
+.logotipo a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.logotipo p {
+    color: #2f86d6;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: end;
+}
+
+.menu-desktop .menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;  
+}
+
+.menu-desktop .menu a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ESTILO DO BANNER */
+
+section.banner {
+    padding: 20px 11%;
+    background-color: #2f86d6;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner .txt-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+    width: 40%;
+    height: 350px;
+}
+
+.banner .img-banner {
+    width: 40%;
+}
+
+.banner .img-banner img {
+    height: 350px;
+    width: 450px;
+}
+
+/* ESTILO PRIMEIRO ANUNCIO */
+
+section.primeiro-anuncio {
+    padding: 20px 10%;
+    background-color: #233032;
+}
+
+.primeiro-anuncio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.primeiro-anuncio .txt-primeiro-anuncio h2,
+.primeiro-anuncio .txt-primeiro-anuncio p {
+    color: #fff;
+}
+
+.primeiro-anuncio .btn-primeiro-anuncio a {
+    text-decoration: none;
+    background-color: #2f86d6;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    display: flex; 
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #000;  
+}
+
+.primeiro-anuncio .btn-primeiro-anuncio img {
+    margin: auto 5px;
+}
+
+/* ESTILO INFORMAÇÕES */
+
+section.informacoes {
+    padding: 20px 10%;
+}
+
+.informacoes h2 {
+    padding: 30px;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.informacoes h2 span {
+    color: #2f86d6;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.cards .card1,
+.cards .card2,
+.cards .card3 {
+    height: 400px;
+    width: 270px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #0000007a;
+    box-shadow: 0 0 14px;
+}
+
+.cards .card1 p,
+.cards .card2 p,
+.cards .card3 p {
+    text-align: center;
+}
+
+.cards .card1 img,
+.cards .card2 img,
+.cards .card3 img {
+    height: 150px;
+    width: 150px;
+}
+
+/* ESTILO PREÇOS */
+
+section.precos {
+    padding: 40px 10% 100px;
+    background-color: #f1f3f7;
+}
+
+.precos h2 {
+    padding: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.precos h2 span {
+    color: #2f86d6;
+}
+
+table {
+    border-radius: 4px;
+    margin: auto;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+
+table thead th {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+table thead th h3 {
+    margin-bottom: 20px;
+}
+
+table thead th img {
+    width: 100px;
+    margin: auto;
+}
+
+table thead th p {
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+
+table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.linha-impar {
+    background-color: #f6f6f6;
+}
+
+.linha-par {
+    background-color: #fff;
+}
+
+/* ESTILO SEGUNDO ANUNCIO */
+
+section.segundo-anuncio {
+    padding: 20px 10%;
+    background-color: #2f86d6;
+}
+
+.segundo-anuncio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.segundo-anuncio .txt-segundo-anuncio h3,
+.segundo-anuncio .txt-segundo-anuncio p {
+    color: #fff;
+}
+
+.segundo-anuncio .btn-segundo-anuncio a {
+    text-decoration: none;
+    background-color: #233032;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    display: flex; 
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #000;  
+}
+
+.segundo-anuncio .btn-segundo-anuncio img {
+    margin: auto 5px;
+}
+
+/* ESTILO RODAPÉ */
+
+footer.rodape {
+    padding: 10px 10%;
+    width: 100%;
+}
+
+.rodape .parte1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.rodape .parte1 p {
+    font-weight: bold;
+}
+
+.rodape .direitos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f1f3f7;
+}
+
+.rodape .direitos p {
+    font-weight: bold;
+}
+
+.rodape .direitos span {
+    font-weight: bold;
+    color: #2f86d6;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+/* ESTILO TABELA DE PREÇOS */
+
+header .center2 {
+    padding: 20px 10%;
+    background-color: #2f86d6;
+}
+
+.center2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logotipo2 {
+    display: inline-block;
+}
+
+.logotipo2 img {
+    height: 75px;
+    width: 75px;
+}
+
+.logotipo2 a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.logotipo2 p {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: end;
+}
+
+.menu-desktop2 .menu2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;  
+}
+
+.menu-desktop2 .menu2 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ESTILO PREÇOS (TABELA DE PREÇOS) */
+
+.conteudo-principal {
+    padding: 100px 10%;
+  }
+  
+  .conteudo-principal table{
+    margin: auto;
+  }
+  
+  .celula-escondida {
+    visibility: hidden;
+  }
+  
+  .celula-cabeçalho {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    background-color: #f1f3f7;
+  }
+  
+  .celula-cabeçalho p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a8a4a4;
+  }
+  
+  .celula-cabeçalho h2 {
+    font-size: 36px;
+  }
+  
+  table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+  }
+  
+  .primeira-celula {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  .marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+  }
+  
+/* ESTILO RODAPÉ ( TABELA DE PREÇOS)*/
+
+footer.rodape2 {
+    padding: 10px 10%;
+    width: 100%;
+}
+
+.rodape2 .parte1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: #2f86d6;
+}
+
+.rodape2 .parte1 p {
+    font-weight: bold;
+}
+
+.rodape2 .direitos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.rodape2 .direitos p {
+    font-weight: bold;
+}
+
+.rodape2 .direitos span {
+    font-weight: bold;
+    color: #2f86d6;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+@media screen and (max-width: 1160px) {
+    /* ESTILO DO CABEÇALHO */
+
+    .logotipo {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .menu-desktop .menu {
+        gap: 25px;  
+    }
+
+    .menu-desktop .menu a {
+        border-bottom: solid 1px #2f86d6;
+        padding-bottom: 5px;
+    }
+
+    /* ESTILO DO BANNER */
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner .txt-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #fff;
+        width: 80%;
+        height: 450px;
+    }
+
+    .banner .img-banner {
+        width: 80%;
+    }
+
+    .banner .img-banner img {
+        height: 150px;
+        width: 250px;
+    }
+
+    /* ESTILO PRIMEIRO ANUNCIO */
+
+    .primeiro-anuncio {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* ESTILO INFORMAÇÕES */
+
+    .informacoes h2 {
+        padding: 15px;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    .cards {
+        gap: 15px;
+    }
+
+    .cards .card1,
+    .cards .card2,
+    .cards .card3 {
+        height: 350px;
+        width: 270px;
+    }
+
+    .cards .card1 h3,
+    .cards .card2 h3,
+    .cards .card3 h3 {
+        text-align: center;
+    }
+
+    /* ESTILO PREÇOS */
+
+    .precos h2 {
+        padding: 15px;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto 60px;
+        font-size: 20px;
+    }
+
+    .container {
+        overflow-x: auto;
+    }
+
+    table {
+        border-radius: 4px;
+        margin: auto;
+        box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+    }
+    
+    table thead th {
+        text-align: center;
+        padding: 20px 0px;
+        background-color: #fff;
+    }
+    
+    table thead th h3 {
+        margin-bottom: 20px;
+    }
+    
+    table thead th img {
+        width: 100px;
+        margin: auto;
+    }
+    
+    table thead th p {
+        max-width: 150px;
+        margin: auto;
+        padding-top: 10px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #a89f9f;
+    }
+    
+    table tbody td {
+        width: 250px;
+        max-width: 1024px;
+        text-align: center;
+        font-weight: 500;
+        padding: 15px;
+    }
+
+    /* ESTILO SEGUNDO ANUNCIO */
+
+    .segundo-anuncio {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .segundo-anuncio .txt-segundo-anuncio h3,
+    .segundo-anuncio .txt-segundo-anuncio p {
+        text-align: center;
+}
+
+    /* ESTILO RODAPÉ */
+
+    .rodape .parte1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .rodape .parte1 p {
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .rodape .direitos p {
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .rodape .direitos span {
+        font-weight: bold;
+        color: #2f86d6;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+    /* ESTILO TABELA DE PREÇOS */
+
+    .logotipo2 {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .menu-desktop2 .menu2 {
+        gap: 25px;  
+    }
+
+    .menu-desktop2 .menu2 a {
+        border-bottom: solid 1px #000;
+        padding-bottom: 5px;
+    }
+
+    /* ESTILO PREÇOS (TABELA DE PREÇOS) */
+
+    .container2 {
+        overflow-x: auto;
+        height: 70%;
+    }
+
+    /* ESTILO RODAPÉ (TABELA DE PREÇOS) */
+
+    .rodape2 .parte1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .rodape2 .parte1 p {
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .rodape2 .direitos p {
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .rodape2 .direitos span {
+        font-weight: bold;
+        color: #2f86d6;
+        font-size: 13px;
+        text-align: center;
+    }
+}
